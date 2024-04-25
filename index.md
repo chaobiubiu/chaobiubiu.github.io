@@ -1,17 +1,4 @@
-```bio-meta
-{
-    "name": "J. Doe",
-    "title": "J. Doe | Curriculum Vitae",
-    "description": "J. Doe&#8217;s curriculum vitae.",
-    "url": "https://GeeLaw.github.io/bio-site/",
-    "assets": "https://GeeLaw.github.io/bio-site/assets",
-    "date-created": "2020-04-21",
-    "repo": "https://github.com/GeeLaw/bio-site",
-    "tilecolor": "#f2f2f2"
-}
-```
-
-# J.&nbsp;Doe
+# Chao Li
 
 <figure class="gl-page-background gl-float-right gl-image-box" style="text-align: center;"><img src="assets/images/hero-image.jpg" alt="A photo of J. Doe" width="160" height="160" style="max-width: 160px;" /></figure>
 
