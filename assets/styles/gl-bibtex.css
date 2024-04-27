@@ -97,14 +97,6 @@
         serif !important;
 }
 
-.fangsong-text
-{
-    /* @@ ChSimpSerifFont */
-        'STSongTi', 'STFangSong', 'SimSun'
-    /* ChSimpSerifFont @@ */,
-        serif !important;
-}
-
 /* Obselete commands will reset to the default family. */
 .gl-bibtex-tex-textsf,
 .gl-bibtex-tex-sffamily,
