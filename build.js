@@ -192,6 +192,15 @@ fs.writeFileSync(
     path.join(repo, 'index.html'),
     indexhtml);
 
+const publicationsPath = path.join(repo, 'publications.html');
+if (fs.existsSync(publicationsPath))
+{
+    const publicationsHtml = fs.readFileSync(publicationsPath, 'utf8').replace(
+        /(<p class="nav-updated">Updated: <time datetime=")[^"]*(">)[^<]*(<\/time><\/p>)/,
+        '$1' + dateModified + '$2' + dateModified + '$3');
+    fs.writeFileSync(publicationsPath, publicationsHtml);
+}
+
 fs.writeFileSync(
     path.join(repo, '404.html'),
     fs.readFileSync(path.join(repo, 'builder', '404.template.html'), 'utf8').
