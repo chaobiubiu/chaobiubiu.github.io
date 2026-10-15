@@ -47,17 +47,15 @@
   </div>
   <div class="about-copy">
     <p>
-      My research focuses on multi-agent reinforcement learning, with particular interest in interaction modeling,
-      collaborative decision-making, multi-task learning, and intrinsic motivation. I develop learning methods and
-      open-source implementations for complex cooperative environments.
+      I am currently a Lecturer at the School of Computer Science, Nanjing University of Posts and Telecommunications.
+      I received my Ph.D. degree from Nanjing University in 2024, supervised by Prof. <a href="https://cs.nju.edu.cn/gaoyang/" target="_blank" rel="noopener noreferrer">Yang Gao</a>.
+      Prior to that, I obtained my M.S. and B.S. degrees from Shanxi University in 2020 and 2017, respectively, supervised by Prof. <a href="https://cs.sxu.edu.cn/faculty/professor/1466/index.htm" target="_blank" rel="noopener noreferrer">Wenjian Wang</a>.
+      From December 2021 to June 2022, I was a research intern with the Reinforcement Learning Group at NetEase Fuxi AI Lab, where I worked closely with Prof. <a href="https://scholar.google.com/citations?user=IR5WY-wAAAAJ&amp;hl=zh-CN" target="_blank" rel="noopener noreferrer">Yujing Hu</a>.
     </p>
     <div class="empty-state about-opportunity">
       <p><strong>I am seeking highly self-motivated students. If interested, please email me your resume and transcript.</strong></p>
       <p lang="zh-CN"><strong>招收2027级硕士研究生，欢迎与我联系！通常会在3日内邮件回复。</strong></p>
     </div>
-    <p>
-      This website collects my research updates, publications, and academic activities.
-    </p>
   </div>
 </section>
 
@@ -84,15 +82,15 @@
   <div class="section-heading">
     <h2 id="research-heading">Research Interests</h2>
   </div>
-  <p class="section-intro">My research aims to build decision-making agents using reinforcement learning to solve tasks defined across diverse environments.</p>
+  <p class="section-intro">My research aims to develop intelligent decision-making agents through reinforcement learning (RL) to tackle complex tasks across diverse environments. Specifically, my research interests include:</p>
   <div class="research-points compact-list" role="list">
     <div class="compact-list-item" role="listitem">
       <span class="compact-list-bullet" aria-hidden="true">·</span>
-      <p><strong>Closed-form environments, such as games:</strong> I study multi-agent reinforcement learning for learning, coordination, and decision-making among multiple agents.</p>
+      <p><strong>Multi-Agent Reinforcement Learning (MARL).</strong> In closed-world environments (e.g., games), I focus on cooperative MARL, aiming to enable effective coordination among multiple decentralized RL agents.</p>
     </div>
     <div class="compact-list-item" role="listitem">
       <span class="compact-list-bullet" aria-hidden="true">·</span>
-      <p><strong>Open environments, such as the internet, code, and software:</strong> I am transitioning toward agentic reinforcement learning for agents that reason, act, and adapt in open-ended settings.</p>
+      <p><strong>Agentic Reinforcement Learning (Agentic RL).</strong> In open-ended environments (e.g., the web, coding, and software applications), I am expanding my research toward Agentic RL, aiming to develop autonomous agents capable of reasoning, acting, and adapting.</p>
     </div>
   </div>
 </section>
@@ -107,62 +105,62 @@
       <article class="recent-publication-card">
         <h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=Qy_b81IAAAAJ&amp;citation_for_view=Qy_b81IAAAAJ:Se3iqnhoufwC" target="_blank" rel="noopener noreferrer">In-Context Fully Decentralized Cooperative Multi-Agent Reinforcement Learning</a></h3>
         <p class="recent-publication-authors"><strong>C. Li</strong>, B. Bao, Y. Gao</p>
-        <p class="recent-publication-venue">Advances in Neural Information Processing Systems 38, 147796&ndash;147818</p>
+        <p class="recent-publication-venue">Conference on Neural Information Processing Systems (NeurIPS), 2025</p>
       </article>
       <article class="recent-publication-card">
         <h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=Qy_b81IAAAAJ&amp;citation_for_view=Qy_b81IAAAAJ:Y0pCki6q_DkC" target="_blank" rel="noopener noreferrer">Coordinating Multi-Agent Reinforcement Learning via Dual Collaborative Constraints</a></h3>
         <p class="recent-publication-authors"><strong>C. Li</strong>, S. Dong, S. Yang, Y. Hu, W. Li, Y. Gao</p>
-        <p class="recent-publication-venue">Neural Networks 182, 106858</p>
-      </article>
-      <article class="recent-publication-card">
-        <h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=Qy_b81IAAAAJ&amp;citation_for_view=Qy_b81IAAAAJ:W7OEmFMy1HYC" target="_blank" rel="noopener noreferrer">Beyond Mandatory Federations: Balancing Egoism, Utilitarianism and Egalitarianism in Mixed-Motive Games</a></h3>
-        <p class="recent-publication-authors">S. Dong, <strong>C. Li</strong>, S. Yang, H. Cao, W. Yang, Y. Gao</p>
-        <p class="recent-publication-venue">Proceedings of the AAAI Conference on Artificial Intelligence 39(15)</p>
-      </article>
-      <article class="recent-publication-card">
-        <h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=Qy_b81IAAAAJ&amp;citation_for_view=Qy_b81IAAAAJ:WF5omc3nYNoC" target="_blank" rel="noopener noreferrer">A Unified and Efficient Training Framework for Open-Ended Non-Transitive Games</a></h3>
-        <p class="recent-publication-authors">S. Dong, <strong>C. Li</strong>, S. Yang, H. Cao, W. Yang, Y. Gao</p>
-        <p class="recent-publication-venue">Neural Networks, 108248</p>
+        <p class="recent-publication-venue">Neural Networks (NN), 2025</p>
       </article>
       <article class="recent-publication-card">
         <h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=Qy_b81IAAAAJ&amp;citation_for_view=Qy_b81IAAAAJ:Tyk-4Ss8FVUC" target="_blank" rel="noopener noreferrer">Multi-Task Multi-Agent Reinforcement Learning with Interaction and Task Representations</a></h3>
         <p class="recent-publication-authors"><strong>C. Li</strong>, S. Dong, S. Yang, Y. Hu, T. Ding, W. Li, Y. Gao</p>
-        <p class="recent-publication-venue">IEEE Transactions on Neural Networks and Learning Systems 36(7), 13431&ndash;13445</p>
+        <p class="recent-publication-venue">IEEE Transactions on Neural Networks and Learning Systems (TNNLS), 2024</p>
       </article>
       <article class="recent-publication-card">
         <h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=Qy_b81IAAAAJ&amp;citation_for_view=Qy_b81IAAAAJ:d1gkVwhDpl0C" target="_blank" rel="noopener noreferrer">Optimistic Value Instructors for Cooperative Multi-Agent Reinforcement Learning</a></h3>
         <p class="recent-publication-authors"><strong>C. Li</strong>, Y. Zhang, J. Wang, Y. Hu, S. Dong, W. Li, T. Lv, C. Fan, Y. Gao</p>
-        <p class="recent-publication-venue">Proceedings of the AAAI Conference on Artificial Intelligence 38(16), 17453&ndash;17461</p>
-      </article>
-      <article class="recent-publication-card">
-        <h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=Qy_b81IAAAAJ&amp;citation_for_view=Qy_b81IAAAAJ:qjMakFHDy7sC" target="_blank" rel="noopener noreferrer">Decentralized Counterfactual Value with Threat Detection for Multi-Agent Reinforcement Learning in Mixed Cooperative and Competitive Environments</a></h3>
-        <p class="recent-publication-authors">S. Dong, <strong>C. Li</strong>, S. Yang, W. Li, Y. Gao</p>
-        <p class="recent-publication-venue">Expert Systems with Applications 257, 125116</p>
-      </article>
-      <article class="recent-publication-card">
-        <h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=Qy_b81IAAAAJ&amp;citation_for_view=Qy_b81IAAAAJ:2osOgNQ5qMEC" target="_blank" rel="noopener noreferrer">Egoism, Utilitarianism and Egalitarianism in Multi-Agent Reinforcement Learning</a></h3>
-        <p class="recent-publication-authors">S. Dong, <strong>C. Li</strong>, S. Yang, B. An, W. Li, Y. Gao</p>
-        <p class="recent-publication-venue">Neural Networks 178, 106544</p>
+        <p class="recent-publication-venue">AAAI Conference on Artificial Intelligence (AAAI), 2024</p>
       </article>
       <article class="recent-publication-card">
         <h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=Qy_b81IAAAAJ&amp;citation_for_view=Qy_b81IAAAAJ:UebtZRa9Y70C" target="_blank" rel="noopener noreferrer">STAR: Spatio-Temporal State Compression for Multi-Agent Tasks with Rich Observations</a></h3>
         <p class="recent-publication-authors"><strong>C. Li</strong>, Y. Hu, S. Yang, T. Lv, C. Fan, W. Li, C. Zhang, Y. Gao</p>
-        <p class="recent-publication-venue">IJCAI, 120&ndash;128</p>
-      </article>
-      <article class="recent-publication-card">
-        <h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=Qy_b81IAAAAJ&amp;citation_for_view=Qy_b81IAAAAJ:_FxGoFyzp5QC" target="_blank" rel="noopener noreferrer">Multi-Agent Exploration via Self-Learning and Social Learning</a></h3>
-        <p class="recent-publication-authors">S. Dong, <strong>C. Li</strong>, W. Chen, H. Cao, W. Li, Y. Gao</p>
-        <p class="recent-publication-venue">ICASSP 2024</p>
+        <p class="recent-publication-venue">International Joint Conference on Artificial Intelligence (IJCAI), 2024</p>
       </article>
       <article class="recent-publication-card">
         <h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=Qy_b81IAAAAJ&amp;citation_for_view=Qy_b81IAAAAJ:9yKSN-GCB0IC" target="_blank" rel="noopener noreferrer">Multi-Agent Sparse Interaction Modeling Is an Anomaly Detection Problem</a></h3>
         <p class="recent-publication-authors"><strong>C. Li</strong>, S. Dong, S. Yang, H. Cao, W. Li, Y. Gao</p>
-        <p class="recent-publication-venue">ICASSP 2024</p>
+        <p class="recent-publication-venue">IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2024</p>
       </article>
       <article class="recent-publication-card">
         <h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=Qy_b81IAAAAJ&amp;citation_for_view=Qy_b81IAAAAJ:u-x6o8ySG0sC" target="_blank" rel="noopener noreferrer">DDMA: Discrepancy-Driven Multi-Agent Reinforcement Learning</a></h3>
         <p class="recent-publication-authors"><strong>C. Li</strong>, Y. Hu, P. Tian, S. Dong, Y. Gao</p>
-        <p class="recent-publication-venue">Pacific Rim International Conference on Artificial Intelligence, 91&ndash;105</p>
+        <p class="recent-publication-venue">Pacific Rim International Conference on Artificial Intelligence (PRICAI), 2022</p>
+      </article>
+      <article class="recent-publication-card">
+        <h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=Qy_b81IAAAAJ&amp;citation_for_view=Qy_b81IAAAAJ:W7OEmFMy1HYC" target="_blank" rel="noopener noreferrer">Beyond Mandatory Federations: Balancing Egoism, Utilitarianism and Egalitarianism in Mixed-Motive Games</a></h3>
+        <p class="recent-publication-authors">S. Dong, <strong>C. Li</strong>, S. Yang, H. Cao, W. Yang, Y. Gao</p>
+        <p class="recent-publication-venue">AAAI Conference on Artificial Intelligence (AAAI), 2025</p>
+      </article>
+      <article class="recent-publication-card">
+        <h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=Qy_b81IAAAAJ&amp;citation_for_view=Qy_b81IAAAAJ:WF5omc3nYNoC" target="_blank" rel="noopener noreferrer">A Unified and Efficient Training Framework for Open-Ended Non-Transitive Games</a></h3>
+        <p class="recent-publication-authors">S. Dong, <strong>C. Li</strong>, S. Yang, H. Cao, W. Yang, Y. Gao</p>
+        <p class="recent-publication-venue">Neural Networks (NN), 2025</p>
+      </article>
+      <article class="recent-publication-card">
+        <h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=Qy_b81IAAAAJ&amp;citation_for_view=Qy_b81IAAAAJ:qjMakFHDy7sC" target="_blank" rel="noopener noreferrer">Decentralized Counterfactual Value with Threat Detection for Multi-Agent Reinforcement Learning in Mixed Cooperative and Competitive Environments</a></h3>
+        <p class="recent-publication-authors">S. Dong, <strong>C. Li</strong>, S. Yang, W. Li, Y. Gao</p>
+        <p class="recent-publication-venue">Expert Systems with Applications (ESWA), 2024</p>
+      </article>
+      <article class="recent-publication-card">
+        <h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=Qy_b81IAAAAJ&amp;citation_for_view=Qy_b81IAAAAJ:2osOgNQ5qMEC" target="_blank" rel="noopener noreferrer">Egoism, Utilitarianism and Egalitarianism in Multi-Agent Reinforcement Learning</a></h3>
+        <p class="recent-publication-authors">S. Dong, <strong>C. Li</strong>, S. Yang, B. An, W. Li, Y. Gao</p>
+        <p class="recent-publication-venue">Neural Networks (NN), 2024</p>
+      </article>
+      <article class="recent-publication-card">
+        <h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=Qy_b81IAAAAJ&amp;citation_for_view=Qy_b81IAAAAJ:_FxGoFyzp5QC" target="_blank" rel="noopener noreferrer">Multi-Agent Exploration via Self-Learning and Social Learning</a></h3>
+        <p class="recent-publication-authors">S. Dong, <strong>C. Li</strong>, W. Chen, H. Cao, W. Li, Y. Gao</p>
+        <p class="recent-publication-venue">IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2024</p>
       </article>
     </div>
   </div>
@@ -189,7 +187,7 @@
   <div class="students-list compact-list" role="list">
     <div class="compact-list-item" role="listitem">
       <span class="compact-list-bullet" aria-hidden="true">·</span>
-      <p lang="zh-CN">硕士：A, B, C</p>
+      <p lang="zh-CN">硕士：暂无</p>
     </div>
   </div>
 </section>
