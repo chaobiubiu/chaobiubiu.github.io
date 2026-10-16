@@ -48,6 +48,9 @@
   var publicationsScroll = document.querySelector(".recent-publications-scroll");
   var publicationItems = publicationsScroll ? Array.prototype.slice.call(publicationsScroll.querySelectorAll(".recent-publication-card")) : [];
   var maxVisiblePublicationItems = 10;
+  var touchViewport = window.matchMedia
+    ? window.matchMedia("(max-width: 720px), (hover: none) and (pointer: coarse)")
+    : null;
 
   function updateScrollableRegion(scrollElement, items, maxVisibleItems, shouldScroll) {
     if (!scrollElement) return;
@@ -69,14 +72,21 @@
   }
 
   function updateCappedRegions() {
-    updateScrollableRegion(newsScroll, newsItems, maxVisibleNewsItems, newsItems.length >= maxVisibleNewsItems);
-    updateScrollableRegion(publicationsScroll, publicationItems, maxVisiblePublicationItems, publicationItems.length > maxVisiblePublicationItems);
+    var useInnerScroll = !(touchViewport && touchViewport.matches);
+
+    updateScrollableRegion(newsScroll, newsItems, maxVisibleNewsItems, useInnerScroll && newsItems.length >= maxVisibleNewsItems);
+    updateScrollableRegion(publicationsScroll, publicationItems, maxVisiblePublicationItems, useInnerScroll && publicationItems.length > maxVisiblePublicationItems);
   }
 
   updateCappedRegions();
 
   if (document.fonts && document.fonts.ready) {
     document.fonts.ready.then(updateCappedRegions);
+  }
+
+  if (touchViewport) {
+    if (touchViewport.addEventListener) touchViewport.addEventListener("change", updateCappedRegions);
+    else if (touchViewport.addListener) touchViewport.addListener(updateCappedRegions);
   }
 
   var cappedRegionResizeFrame;

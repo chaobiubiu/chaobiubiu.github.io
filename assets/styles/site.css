@@ -415,7 +415,8 @@ a {
 .recent-publications-scroll.is-scrollable {
   overflow-x: hidden;
   overflow-y: auto;
-  overscroll-behavior: contain;
+  overscroll-behavior-y: auto;
+  -webkit-overflow-scrolling: touch;
   padding-right: 10px;
   scrollbar-color: #d6dee1 transparent;
   scrollbar-gutter: stable;
@@ -870,6 +871,14 @@ a {
 @media (max-width: 720px) {
   body {
     font-size: 15px;
+  }
+
+  .news-scroll.is-scrollable,
+  .recent-publications-scroll.is-scrollable {
+    max-height: none !important;
+    overflow: visible;
+    padding-right: 0;
+    scrollbar-gutter: auto;
   }
 
   .page-shell {
